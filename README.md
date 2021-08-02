@@ -1,2 +1,2 @@
-![Alt Text](https://github.com/cclarice/frontend_sort_circles/gif/modes.gif)
-![Alt Text](https://github.com/cclarice/frontend_sort_circles/gif/colors.gif)
+![](https://github.com/cclarice/frontend_sort_circles/blob/main/gif/Colors.gif)
+![](https://github.com/cclarice/frontend_sort_circles/blob/main/gif/Modes.gif)
