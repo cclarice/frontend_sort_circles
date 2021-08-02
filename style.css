@@ -12,7 +12,7 @@
 /*                                                                            */
 /*   style.css                                cclarice@student.21-school.ru   */
 /*                                                                            */
-/*   Created/Updated: 2021/08/01 12:46:37  /  2021/08/01 12:47:21 @cclarice   */
+/*   Created/Updated: 2021/08/02 14:58:41  /  2021/08/02 14:58:44 @cclarice   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,13 +44,13 @@ body {
 .buttons {
 	display: flex;
 	width: 100%;
-	height: 20%;
+	height: 10%;
 }
 
 .forma {
 	position: relative;
 	width: 40%;
-	height: 20%;
+	height: 50%;
 	background: white;
 	top: 50%;
 	left: 10%;
@@ -90,7 +90,7 @@ body {
 .slidecontainer {
 	position: relative;
 	width: 30%;
-	height: 20%;
+	height: 50%;
 	left: 20%;
 	top: 50%;
 	display: flex;
@@ -116,21 +116,21 @@ body {
 
 .circles_container {
 	position: fixed;
-	width: 80%;
-	height: 80%;
-	left: 10%;
+	width: 90%;
+	height: 90%;
+	left: 5%;
 	opacity: 1;
 
 }
 
 .circles {
 	position: relative;
-	width: 80vh;
-	height: 80vh;
-	max-width: 80vw;
-	max-height: 80vw;
+	width: 90vh;
+	height: 90vh;
+	max-width: 90vw;
+	max-height: 90vw;
 	left: 50%;
-	top: 50%;
+	top: 48.75%;
 	transform: translate(-50%, 0%);
 	pointer-events: none;
 	opacity: 1;
@@ -140,11 +140,11 @@ body {
 	position: fixed;
 	width: 100%;
 	height: 100%;
+	left: 0%;
 	transform: translate(0%, -50%);
 	border: 1px solid black;
 	border-radius: 50%;
-	opacity: 0;
-	animation-duration: 2s;
+	animation-duration: 1s;
 	animation-name: fast0;
 	animation-iteration-count: 1;
 }
@@ -154,10 +154,15 @@ body {
 		width: 0%;
 		height: 0%;
 		left: 50%;
+		transform: translate(0%, -50%);
 		opacity: 0;
+		background: black;
 	}
 	20% {
 		opacity: 0;
+	}
+	40% {
+		background: black;
 	}
 	to {
 	}
@@ -165,9 +170,26 @@ body {
 
 @keyframes fast1 {
 	from {
-
+		top: 0;
 	}
 	to {
-		background: black;
+	}
+}
+
+@keyframes fast2 {
+	from {
+
+	}
+	to  {
+		top: 0;
+	}
+}
+
+@keyframes disappear{
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
 	}
 }
