@@ -12,7 +12,7 @@
 /*                                                                            */
 /*   style.css                                cclarice@student.21-school.ru   */
 /*                                                                            */
-/*   Created/Updated: 2021/08/02 14:58:41  /  2021/08/02 14:58:44 @cclarice   */
+/*   Created/Updated: 2021/08/02 16:08:18  /  2021/08/02 16:08:28 @cclarice   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ body {
 	height: 50%;
 	background: white;
 	top: 50%;
-	left: 10%;
+	left: 5%;
 	transform: translate(0, -50%);
 	margin: 0;
 }
@@ -89,17 +89,17 @@ body {
 /**/
 .slidecontainer {
 	position: relative;
-	width: 30%;
+	width: 45%;
 	height: 50%;
-	left: 20%;
+	left: 10%;
 	top: 50%;
 	display: flex;
 	transform: translate(0, -50%);
 }
 
-.select_fast,
-.select_push,
-.select_swap {
+.anime_mode,
+.color_mode,
+.speed_mode {
 	width: 33.33%;
 	height: 100%;
 	background: transparent;
@@ -107,9 +107,9 @@ body {
 	text-align: center;
 }
 
-.select_fast:hover,
-.select_push:hover,
-.select_swap:hover {
+.anime_mode:hover,
+.color_mode:hover,
+.speed_mode:hover {
 	background: gray;
 }
 /**/
